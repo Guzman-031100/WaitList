@@ -20,7 +20,14 @@ form{
     display: block;
     background-color: blueviolet;
     margin: -20px;
+    padding-top: 20px;
 }
+form input[type="text"],
+form input[type="tel"],
+form input[type="number"] {
+    font-size: 1.01em; 
+}
+
 input[type="submit"] {
     background-color: green; 
     color: white; 
