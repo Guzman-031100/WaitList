@@ -4,8 +4,9 @@ body {
     background-color: aqua;
 }
 .container{
-    display: inline-block;
+    display: inline-block;  
 }
+
 h1 {
     display: block;
     font-size: 2em;
@@ -13,15 +14,20 @@ h1 {
     font-style: italic;
     background-color: hsl(191, 100%, 51%);
     border-radius: 3px;
-    padding: 20px;
+    padding: 20px ;
+    text-decoration: underline;
+    text-decoration-color: purple;
+    box-shadow: 10px 10px 5px lightblue;
 }
+
 form{
     font-size: 1.2em;
     display: block;
-    background-color: blueviolet;
+    background-color: hsl(271, 92%, 70%);
     margin: -20px;
-    padding-top: 20px;
+    padding: 20px 20px;
 }
+
 form input[type="text"],
 form input[type="tel"],
 form input[type="number"] {
