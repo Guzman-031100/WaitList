@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    background-color: lightseagreen;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    font-family: "Segoe Script", "Segoe UI";
+    font-style: italic;
+    background-color: rgb(24, 187, 179);
+    border-radius: 3px;
+    padding: 20px;
+    text-decoration: underline;
+    text-decoration-color: purple;
+    box-shadow: 10px 10px 5px rgb(46, 145, 140);
+}
+
+table {
+    
+
+    border: 2px solid;
+    margin: auto;
+    background-color: lightblue;
+}
+
+th {
+
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    background-color: rgb(158, 215, 235);
+}
+
+td {
+    border-right: 1px solid;
+    background-color: rgb(186, 212, 221);
+}
