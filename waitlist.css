@@ -17,8 +17,7 @@ h1 {
 }
 
 table {
-    
-
+    font-size: 1.5em;
     border: 2px solid;
     margin: auto;
     background-color: lightblue;
