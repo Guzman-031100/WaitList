@@ -12,7 +12,7 @@
 <body>
     <div class="container">
         <h1>Manriquez Panaderia</h1>
-        <form>
+        <form id="waitlistForm">
             <label for="fname">First name:</label>
             <input type="text" id="fname" name="fname" minlength="2" pattern="[A-Za-z]+" required><br>
             <br>
@@ -26,7 +26,6 @@
             <input type="number" id="quantity" name="quantity" min="1" max="4" required><br>
             <br>
             <input type="submit" value="Waitlist Me">
-            <!--  <input type="submit" value="Make reseration instead" disabled>-->
         </form>
     </div>
 
@@ -37,15 +36,17 @@
         <p>Owner: Michelle Manriquez<br>
             &copy;2024 Guzman Coding Corp. - All Rights Reserved<br>
             Contact us:
-            <small> <a href="mailto:hege@example.com"> mjbakery@example.com</a> </small><br>
+            <small> <a href="mailto:mjbakery@example.com"> mjbakery@example.com</a> </small><br>
             <small> <a href="tel:123-456-7890">123-456-7890</a></small>
         </p>
     </footer>
 
-<b><a href="waitlist.html">Temporary test waitlist</a></b>
+    <b><a href="waitlist.html">Temporary test waitlist</a></b>
+    <script src="index.js" defer></script>
 
 </body>
 
 </html>
 
 <!--This index will be used for registry for the  waitlist-->
+<!--  <input type="submit" value="Make reseration instead" disabled>-->
