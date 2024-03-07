@@ -1,11 +1,10 @@
 body {
     text-align: center;
     margin-top: 50px;
-    background-color: aqua;
+    background-color: rgb(251, 120, 97);
 }
-
-.container {
-    display: inline-block; 
+.container{
+    display: inline-block;  
 }
 
 h1 {
@@ -13,30 +12,33 @@ h1 {
     font-size: 2em;
     font-family: "Segoe Script", "Segoe UI";
     font-style: italic;
-    background-color: hsl(191, 100%, 51%);
+    background-color: rgb(250, 74, 42);
     border-radius: 3px;
     padding: 20px ;
     text-decoration: underline;
     text-decoration-color: purple;
-    box-shadow: 10px 10px 5px lightblue;
+    box-shadow: 10px 10px 5px rgba(230, 173, 173, 0.418);
 }
 
 form{
     font-size: 1.2em;
     display: block;
-    background-color: hsl(271, 92%, 70%);
+    background-color: crimson;
     margin: -20px;
-    padding: 40px 20px;
+    padding: 20px 20px;
 }
 
 form input[type="text"],
 form input[type="tel"],
-form input[type="number"] {
+form input[type="number"],
+form input[type="date"],
+form input[type ="email"], 
+form input[type ="radio"]{
     font-size: 1.01em; 
 }
 
 input[type="submit"] {
-    background-color: green; 
+    background-color: blue; 
     color: white; 
     margin: 5px;
     padding: 10px 20px; 
@@ -44,17 +46,8 @@ input[type="submit"] {
     cursor: pointer; 
     font-size: 16px; 
     border-radius: 5px; 
-
 }
 
 input[type="submit"]:hover {
-    background-color: darkgreen;
-}
-button{
-    margin: 5px;
-    padding: 10px 10px; 
-    font-size: 12px; 
-    border-radius: 5px; 
-    border: none;
-    margin: -25px;
+    background-color: darkblue;
 }

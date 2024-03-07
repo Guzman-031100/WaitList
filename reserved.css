@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    margin-top: 50px;
+    background-color:crimson;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    font-family: "Segoe Script", "Segoe UI";
+    font-style: italic;
+    background-color: rgb(250, 74, 42);
+    border-radius: 3px;
+    padding: 20px ;
+    text-decoration: underline;
+    text-decoration-color: purple;
+    box-shadow: 10px 10px 5px rgba(230, 173, 173, 0.418);
+}
+
+.container{
+    background-color: rgb(251, 104, 133);
+
+}
+#confirmationEmail{
+    color: blue;
+}
+ul {
+    list-style-type: none;
+}
